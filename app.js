@@ -19,11 +19,30 @@ app.use(express.static("public"));
 
 app.get('/', (req, res) => {
   res.render('home', {
-    title: "Home",
     homeText: homeStartingContent
   });
 });
 
+app.get('/about', (req, res) => {
+  res.render('about', {
+    aboutText: aboutContent
+  });
+});
+
+app.get('/contact', (req, res) => {
+  res.render('contact', {
+    contactText: contactContent
+  });
+});
+
+app.get('/compose', (req, res) => {
+  res.render('compose');
+});
+
+app.post('/compose', (req, res) => {
+  console.log(req.body.postTitle);
+  console.log(req.body.postText);
+})
 
 
 
