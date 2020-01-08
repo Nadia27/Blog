@@ -5,8 +5,11 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
+require('dotenv').config()
 
-mongoose.connect('mongodb://localhost:27017/blogDB', {useNewUrlParser: true,  useUnifiedTopology: true})
+const dbAccess = process.env.DATABASE_ACCESS;
+
+mongoose.connect(`mongodb+srv://admin-nadia:${dbAccess}@cluster0-tptwn.mongodb.net/blogDB`, {useNewUrlParser: true,  useUnifiedTopology: true});
 
 const blogSchema = new mongoose.Schema({
   title: String,
