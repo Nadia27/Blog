@@ -7,7 +7,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 require('dotenv').config()
 
-const dbAccess = process.env.DATABASE_ACCES;
+const dbAccess = process.env.DATABASE_ACCESS;
 
 mongoose.connect(`mongodb+srv://admin-nadia:${dbAccess}@cluster0-tptwn.mongodb.net/blogDB`, {useNewUrlParser: true,  useUnifiedTopology: true});
 
