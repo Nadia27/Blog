@@ -1,0 +1,37 @@
+# the Sideline Story | a Coder's Blog
+
+the Sideline Story a Coder's Blog will profile my journey to becoming a professional and freelance web developer. My goal is to   
+
+
+## Built With
+
+* Embedded JavaScript (EJS)
+* Javascript
+* Node JS & Express
+* Mongoose
+
+
+## What I learned building the Sideline Story
+
+*  What is EJS?
+    * templating language/engine that generates HTML with plain JS
+
+    * EJS is extremely helpful in generating dynamic content with real-time updates.
+
+    * EJS has 4 frequently used tags:
+      * **<% %>** : are used to for control flow i.e. bindings, control flow, conditional, no output
+
+      * **<%= %>** : outputs the value into the into the template
+
+        ex:
+
+      * **<%- -%>** : outputs the unescaped value in the template
+
+        ```<%- include('partials/footer') -%>```
+
+
+      * **<%# %>** : are used for comments
+
+
+
+* Overall more comfort with Javascript, Node, and Express. <br/>
