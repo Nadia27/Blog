@@ -22,6 +22,16 @@ the Sideline Story a Coder's Blog will profile my journey to becoming a professi
     * EJS has 4 frequently used tags:
       * **<% %>** : are used to for control flow i.e. bindings, control flow, conditional, no output
 
+      ex:
+        ```<% previousPost.forEach((post) => { %>
+          <h2>
+            <%= post.title %>
+          </h2>
+
+          <% }); %>
+        ```
+
+
       * **<%= %>** : outputs the value into the into the template
 
         ex:
