@@ -28,8 +28,7 @@ the Sideline Story a Coder's Blog will profile my journey to becoming a professi
             <%= post.title %>
           </h2>
 
-          <% }); %>
-        ```
+          <% }); %>```
 
 
       * **<%= %>** : outputs the value into the into the template
