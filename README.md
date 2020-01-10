@@ -9,6 +9,7 @@ the Sideline Story a Coder's Blog will profile my journey to becoming a professi
 * Javascript
 * Node JS & Express
 * Mongoose
+* MongoDB Atlas
 
 
 ## What I learned building the Sideline Story
@@ -24,9 +25,11 @@ the Sideline Story a Coder's Blog will profile my journey to becoming a professi
       * **<%= %>** : outputs the value into the into the template
 
         ex:
+        ```<%= post.content.substring(0, 100) + " ..." %>```
 
       * **<%- -%>** : outputs the unescaped value in the template
 
+         ex.
         ```<%- include('partials/footer') -%>```
 
 
