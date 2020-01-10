@@ -1,5 +1,7 @@
 # the Sideline Story | a Coder's Blog
 
+https://secure-ocean-72859.herokuapp.com/
+
 the Sideline Story a Coder's Blog will profile my journey to becoming a professional and freelance web developer. My goal is to   
 
 
